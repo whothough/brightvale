@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Brightvale Reman</name>
+        <update version="0.0.1">
+            <file name="race-brightvale-reman.xml" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale-races/race-brightvale-reman.xml" />
+        </update>
+    </info>
+    
+    <element name="Brightvale Reman" type="Race" source="Brightvale" id="ID_BRV_RACE_REMAN">
+        <description>
+            <h4>Men of the Plains.</h4>
+            <p>Physical: Dark skin, black hair, strong build, distinctive black eyes, very little differentiation between pupil and iris.</p>
+            <p>Culture: The Nomads of the Great North are a mixture of infamous raiders and reputable traders. Some hordes travel as great caravans, from one extreme of the continent to the other, trading exotic goods. Others, whether out of barbarric tradition or sheer desparation, loot and pillage as roaming tribes of raiders. They're known for their egalitarian society, sharing their profits or plunders, and following traderoutes or necessity rather than Khans or Captains. They wear thick leathers, lined with fur, and are rarely seen without some form of hood, hat or helmet.</p>
+            <h4>Felman Traits</h4>
+            <p>
+                <span class="feature">Ability Score Increase.</span> Your Strength score increases by 2, and your Wisdom score increases by 1.<br />
+                <span class="feature">Nomadic Community.</span> Proficient with the Perception skill.<br />
+                <span class="feature">Home in the Saddle.</span> Travelling for 8 hours without interruption (except to rest) counts as a long rest. Travelling for an hour counts as a short rest.<br />
+                <span class="feature">Nomadic Education.</span> You may choose one fighting style from the Fighter class.<br />
+                <span class="feature">Fire Affinity.</span> Produce Flame cantrip & Burning Hands.<br />
+            </p>
+        </description>
+        <setters>
+            <set name="names" type="male">Alla, Athuin, Billan, Cuthuin, Elass, Elissar, Faethuin, Gilessar, Halwin, ...</set>
+            <set name="names" type="female">Aewin, Alia, Bessan, Cathail, Ethuil, Esafilla, Fessil, Galia, ...</set>
+            <set name="names" type="clan"></set>
+            <set name="names-format">{{name}}</set>
+            <set name="height" modifier="2d10">5'</set>
+            <set name="weight" modifier="2d4">110 lb.</set>
+        </setters>
+        <sheet display="false">
+            <description>description</description>
+        </sheet>
+        <rules>
+            <stat name="strength" value="2" />
+            <stat name="wisdom" value="1" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+            <grant type="Racial Trait" id="ID_BRV_REMAN_HS" />
+            <grant type="Spell" id="ID_PHB_SPELL_PRODUCE_FLAME" />
+            <grant type="Spell" id="ID_PHB_SPELL_BURNING_HANDS" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_BRV_LANGUAGE_REMAN" />
+            <select name="Fighting Style, Reman" type="Racial Trait" supports="Fighting Style, Fighter"/>
+        </rules>
+    </element>
+    <element name="Home in the Saddle" type="Racial Trait" source="Brightvale" id="ID_BRV_REMAN_HS">
+        <description>
+            <p>Travelling for 8 hours without interruption (except to rest) counts as a long rest. Travelling for an hour counts as a short rest.</p>
+        </description>
+        <sheet display="true">
+            <description>Travelling for 8 hours without interruption (except to rest) counts as a long rest. Travelling for an hour counts as a short rest.</description>
+        </sheet>
+    </element>
+    <element name="Remic" type="Language" source="Brightvale" id="ID_BRV_LANGUAGE_REMAN">
+        <description>
+            <p>Typically spoken by remans.</p>
+        </description>
+        <setters>
+            <set name="exotic">true</set>
+            <set name="speakers">Reman</set>
+            <set name="script">Reman characters</set>
+        </setters>
+    </element>
+</elements>
