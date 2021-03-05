@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Brightvale Human</name>
-        <update version="0.0.3">
+        <update version="0.0.4">
             <file name="race-brightvale-human.xml" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale-races/race-brightvale-human.xml" />
         </update>
     </info>
@@ -38,12 +38,13 @@
             <grant type="Size" id="ID_SIZE_MEDIUM" />
             <stat name="innate speed" value="30" bonus="base" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
-            <select type="Proficiency" name="Additional Proficiencies (Human)" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_BREWERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS tools" />
-            <select type="Proficiency" name="Expertise (Human)" number="2" supports="ID_INTERNAL_SUPPORT_EXPERTISE"/>
+            <select type="Proficiency" name="Tool Proficiency (Human)" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_BREWERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS tools" />
+            <select type="Proficiency" name="Expertise (Human)" level="1" number="2" supports="ID_INTERNAL_SUPPORT_EXPERTISE" />
             <select type="Spell" name="1st-level Spell (Education Ritual)" supports="Ritual,1,Artificer" number="2" />
             <grant type="Spell" id="ID_PHB_SPELL_GOODBERRY" />
             <grant type="Spell" id="ID_XGTE_SPELL_MOLD_EARTH" />
             <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_BRV_LANGUAGE_HUMAN" />
         </rules>
     </element>
     <element name="Sarachic" type="Language" source="Brightvale" id="ID_BRV_LANGUAGE_HUMAN">
