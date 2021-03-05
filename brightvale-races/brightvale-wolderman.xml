@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Brightvale Wolderman</name>
+        <update version="0.0.1">
+            <file name="race-brightvale-wolderman.xml" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale-races/race-brightvale-wolderman.xml" />
+        </update>
+    </info>
+    
+    <element name="Brightvale Wolderman" type="Race" source="Brightvale" id="ID_BRV_RACE_WOLDERMAN">
+        <description>
+            <h4>Men of the Wald.</h4>
+            <p>Physical: Dark skin, dark hair, light build, distinctive multi-tone, straight hair, forming streaks or lighter and darker hair.</p>
+            <p>Culture: Woldermans distance themselves from the rest of sapient society, and aggressively protect their woodland territory for themselves. To outsiders, they are famed as feral and barbarous: attacking loggers and hunters that stray too far into their forests with impunity. Within themselves, they are a spiritual and deeply communal people. They usually wear trousers and short tunics made from animal hides, and are rarely seen without a bow and a logging sword. They live in intricate networks of houses and bridges suspended in the canopies of dense forests. Hunting trails are often built across the forest, allowing them to stalk and hunt without touching the forest floor.</p>
+            <h4>Wolderman Traits</h4>
+            <p>
+                <span class="feature">Ability Score Increase.</span> Your Dexterity score increases by 2, and your Wisdom score increases by 1.<br />
+                <span class="feature">Forest Community.</span> Proficient with the Nature skill.<br />
+                <span class="feature">Culture Shock.</span> Advantage on deception checks; disadvantage on insight checks.<br />
+                <span class="feature">Huntsmen.</span> +1 vs AC for ranged attacks.<br />
+                <span class="feature">Forest Education.</span> You may choose two 1st level Druid spells you may cast as rituals.<br />
+                <span class="feature">Life Affinity.</span> Spare the Dying cantrip and Animal Friendship.<br />
+            </p>
+        </description>
+        <setters>
+            <set name="names" type="male">Alla, Athuin, Billan, Cuthuin, Elass, Elissar, Faethuin, Gilessar, Halwin, ...</set>
+            <set name="names" type="female">Aewin, Alia, Bessan, Cathail, Ethuil, Esafilla, Fessil, Galia, ...</set>
+            <set name="names" type="clan"></set>
+            <set name="names-format">{{name}}</set>
+            <set name="height" modifier="2d10">5'</set>
+            <set name="weight" modifier="2d4">110 lb.</set>
+        </setters>
+        <sheet display="false">
+            <description>description</description>
+        </sheet>
+        <rules>
+            <stat name="dexterity" value="2" />
+            <stat name="wisdom" value="1" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Racial Trait" id="ID_BRV_WOLDERMAN_CS" />
+            <grant type="Racial Trait" id="ID_BRV_WOLDERMAN_H" />
+            <select type="Spell" name="1st-level Spell (Education Ritual)" supports="Ritual,1,Druid" number="2" />
+            <grant type="Spell" id="ID_PHB_SPELL_SPARE_THE_DYING" />
+            <grant type="Spell" id="ID_PHB_SPELL_ANIMAL_FRIENDSHIP" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_BRV_LANGUAGE_WOLD" />
+        </rules>
+    </element>
+    <element name="Culture Shock" type="Racial Trait" source="Brightvale" id="ID_BRV_WOLDERMAN_CS">
+        <description>
+            <p>Advantage on deception checks; disadvantage on insight checks.</p>
+        </description>
+        <sheet display="true">
+            <description>Advantage on deception checks; disadvantage on insight checks.</description>
+        </sheet>
+    </element>
+  <element name="Huntsmen" type="Racial Trait" source="Brightvale" id="ID_BRV_WOLDERMAN_H">
+        <description>
+            <p>+1 vs AC for ranged attacks</p>
+        </description>
+        <sheet display="false">
+            <description>+1 vs AC for ranged attacks.</description>
+        </sheet>
+        <rules>
+			      <stat name="ranged:attack" value="1" />
+		    </rules>
+    </element>
+    <element name="Wolderspeak" type="Language" source="Brightvale" id="ID_BRV_LANGUAGE_WOLD">
+        <description>
+            <p>Typically spoken by woldermans.</p>
+        </description>
+        <setters>
+            <set name="exotic">true</set>
+            <set name="speakers">Wolderman</set>
+            <set name="script">Wold Carvings</set>
+        </setters>
+    </element>
+</elements>
