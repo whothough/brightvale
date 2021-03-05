@@ -38,6 +38,7 @@
             <stat name="wisdom" value="1" />
             <grant type="Size" id="ID_SIZE_MEDIUM" />
             <stat name="innate speed" value="30" bonus="base" />
+		<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_NATURE" />
             <grant type="Racial Trait" id="ID_BRV_WOLDERMAN_CS" />
             <grant type="Racial Trait" id="ID_BRV_WOLDERMAN_H" />
             <select type="Spell" name="1st-level Spell (Education Ritual)" supports="Ritual,1,Druid" number="2" />
