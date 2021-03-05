@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Brightvale Reman</name>
-        <update version="0.0.3">
+        <update version="0.0.4">
             <file name="race-brightvale-reman.xml" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale-races/race-brightvale-reman.xml" />
         </update>
     </info>
@@ -125,7 +125,7 @@
 		</sheet>
 	</element>
 	<element name="Two-Weapon Fighting" type="Racial Trait" source="Brightvale" id="ID_BRV_REMAN_FIGHTINGSTYLE_TWOWEAPON_FIGHTING">
-		<<supports>Fighting Style</supports>
+		<supports>Fighting Style</supports>
 		<requirements>ID_BRV_RACE_REMAN</requirements>
 		<description>
 			<p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>
