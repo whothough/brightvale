@@ -15,11 +15,11 @@
             <h4>Felman Traits</h4>
             <p>
                 <span class="feature">Ability Score Increase.</span> Your Constitution score increases by 2, and your Charisma score increases by 1.<br />
-                <span class="feature">Mountain Community.</span> Proficient with the Perception skill.<br />
+                <span class="feature">Mountain Community.</span> Proficieny with the Survival skill.<br />
                 <span class="feature">Self-Sufficiency.</span> Proficiency with battleaxe, handaxe, light hammers and warhammers. Advantage on strength saving throws.<br />
                 <span class="feature">Honest.</span> Advantage on persuasion skill checks; disadvantage on deception.<br />
                 <span class="feature">Eastman Education.</span> You may choose two transmutation cantrips or ritual 1st level spells..<br />
-                <span class="feature">Ice Affinity.</span> Ray of Frost cantrip & Armour of Agathys.<br />
+                <span class="feature">Ice Affinity.</span> Ray of Frost cantrip and Armour of Agathys.<br />
             </p>
         </description>
         <setters>
@@ -38,8 +38,11 @@
             <stat name="charisma" value="1" />
             <grant type="Size" id="ID_SIZE_MEDIUM" />
             <stat name="innate speed" value="30" bonus="base" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
-            <grant type="Vision" id="ID_VISION_DARKVISION" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LIGHT_HAMMER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER" />
             <grant type="Racial Trait" id="ID_BRV_HOCHMAN_SS" />
             <grant type="Racial Trait" id="ID_BRV_HOCHMAN_H" />
             <select type="Spell" name="1st-level Spell (Education Cantrip/Rituals)" supports="ID_PHB_SPELL_CREATE_OR_DESTROY_WATER|ID_PHB_SPELL_DRUIDCRAFT|ID_PHB_SPELL_EXPEDITIOUS_RETREAT|ID_PHB_SPELL_FEATHER_FALL|ID_PHB_SPELL_GOODBERRY|ID_PHB_SPELL_JUMP|ID_PHB_SPELL_LONGSTRIDER|ID_PHB_SPELL_MENDING|ID_PHB_SPELL_MESSAGE|ID_PHB_SPELL_PRESTIDIGITATION|ID_PHB_SPELL_PURIFY_FOOD_AND_DRINK|ID_PHB_SPELL_SHILLELAGH|ID_PHB_SPELL_THAUMATURGY|ID_PHB_SPELL_THORN_WHIP" number="2" />
