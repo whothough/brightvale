@@ -6,7 +6,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="brightvale-races.index" url="https://github.com/whothough/brightvale/edit/master/" />
-		<file name="brightvale-backgrounds.index" url="https://github.com/whothough/brightvale/edit/master/" />		
+		<file name="race-brightvale-human.xml" url="https://github.com/whothough/brightvale/edit/master/brightvale-races/race-brightvale-human.xml" />	
 	</files>
 </index>
