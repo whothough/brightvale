@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<update version="0.0.2">
+		<update version="0.1.0">
 			<file name="brightvale.index" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale.index" />
 		</update>
 	</info>
@@ -11,5 +11,7 @@
 		<file name="race-brightvale-felman.xml" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale-races/race-brightvale-felman.xml" />
 		<file name="race-brightvale-hochman.xml" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale-races/race-brightvale-hochman.xml" />
 		<file name="race-brightvale-reman.xml" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale-races/race-brightvale-reman.xml" />
+		<file name="race-brightvale-tesman.xml" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale-races/race-brightvale-tesman.xml" />
+		<file name="race-brightvale-gulman.xml" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale-races/race-brightvale-gulman.xml" />
 	</files>
 </index>
