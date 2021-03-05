@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Brightvale Reman</name>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="race-brightvale-reman.xml" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale-races/race-brightvale-reman.xml" />
         </update>
     </info>
