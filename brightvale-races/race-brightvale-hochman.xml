@@ -35,7 +35,7 @@
         </sheet>
         <rules>
             <stat name="constitution" value="2" />
-            <stat name="wisdom" value="1" />
+            <stat name="charisma" value="1" />
             <grant type="Size" id="ID_SIZE_MEDIUM" />
             <stat name="innate speed" value="30" bonus="base" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
