@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Brightvale Hochman</name>
+        <update version="0.0.1">
+            <file name="race-brightvale-hochman.xml" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale-races/race-brightvale-hochman.xml" />
+        </update>
+    </info>
+    
+    <element name="Brightvale Hochman" type="Race" source="Brightvale" id="ID_BRV_RACE_HOCHMAN">
+        <description>
+            <h4>Men of the Feldark.</h4>
+            <p>Physical: Fair skin, fair hair, strong build, distinctive tightly curled hair and facial hair on men, highly arched eyebrows.</p>
+            <p>Culture: The mountainous East is populated by the Hochman race: a sturdy people who live in a regimented, feudal society. Their realms are some of the oldest continuous regimes on the continent, but also some of the most unchanged. They're largely self-sufficient people, living in small villages and living fairly insular lives in their family communities. They're known for thick, tightly curled hair and beards.</p>
+            <h4>Felman Traits</h4>
+            <p>
+                <span class="feature">Ability Score Increase.</span> Your Constitution score increases by 2, and your Charisma score increases by 1.<br />
+                <span class="feature">Mountain Community.</span> Proficient with the Perception skill.<br />
+                <span class="feature">Self-Sufficiency.</span> Proficiency with battleaxe, handaxe, light hammers and warhammers. Advantage on strength saving throws.<br />
+                <span class="feature">Honest.</span> Advantage on persuasion skill checks; disadvantage on deception.<br />
+                <span class="feature">Eastman Education.</span> You may choose two transmutation cantrips or ritual 1st level spells..<br />
+                <span class="feature">Ice Affinity.</span> Ray of Frost cantrip & Armour of Agathys.<br />
+            </p>
+        </description>
+        <setters>
+            <set name="names" type="male">Alla, Athuin, Billan, Cuthuin, Elass, Elissar, Faethuin, Gilessar, Halwin, ...</set>
+            <set name="names" type="female">Aewin, Alia, Bessan, Cathail, Ethuil, Esafilla, Fessil, Galia, ...</set>
+            <set name="names" type="clan"></set>
+            <set name="names-format">{{name}}</set>
+            <set name="height" modifier="2d10">5'</set>
+            <set name="weight" modifier="2d4">110 lb.</set>
+        </setters>
+        <sheet display="false">
+            <description>description</description>
+        </sheet>
+        <rules>
+            <stat name="constitution" value="2" />
+            <stat name="wisdom" value="1" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+            <grant type="Racial Trait" id="ID_BRV_HOCHMAN_SS" />
+            <grant type="Racial Trait" id="ID_BRV_HOCHMAN_H" />
+            <select type="Spell" name="1st-level Spell (Education Cantrip/Rituals)" supports="ID_PHB_SPELL_CREATE_OR_DESTROY_WATER|ID_PHB_SPELL_DRUIDCRAFT|ID_PHB_SPELL_EXPEDITIOUS_RETREAT|ID_PHB_SPELL_FEATHER_FALL|ID_PHB_SPELL_GOODBERRY|ID_PHB_SPELL_JUMP|ID_PHB_SPELL_LONGSTRIDER|ID_PHB_SPELL_MENDING|ID_PHB_SPELL_MESSAGE|ID_PHB_SPELL_PRESTIDIGITATION|ID_PHB_SPELL_PURIFY_FOOD_AND_DRINK|ID_PHB_SPELL_SHILLELAGH|ID_PHB_SPELL_THAUMATURGY|ID_PHB_SPELL_THORN_WHIP" number="2" />
+            <grant type="Spell" id="ID_PHB_SPELL_RAY_OF_FROST" />
+            <grant type="Spell" id="ID_PHB_SPELL_ARMOR_OF_AGATHYS" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_BRV_LANGUAGE_HOCHMAN" />
+        </rules>
+    </element>
+    <element name="Self-Sufficiency" type="Racial Trait" source="Brightvale" id="ID_BRV_HOCHMAN_SS">
+        <description>
+            <p>Proficiency with battleaxe, handaxe, light hammers and warhammers. Advantage on strength saving throws.</p>
+        </description>
+        <sheet display="true">
+            <description>Advantage on strength saving throws.</description>
+        </sheet>
+    </element>
+    <element name="Honest" type="Racial Trait" source="Brightvale" id="ID_BRV_HOCHMAN_H">
+        <description>
+            <p>Advantage on persuasion skill checks; disadvantage on deception.</p>
+        </description>
+        <sheet display="true">
+            <description>Advantage on persuasion skill checks; disadvantage on deception.</description>
+        </sheet>
+    </element>
+    <element name="Hochman" type="Language" source="Brightvale" id="ID_BRV_LANGUAGE_HOCHMAN">
+        <description>
+            <p>Typically spoken by hochmans.</p>
+        </description>
+        <setters>
+            <set name="exotic">true</set>
+            <set name="speakers">Hochman</set>
+            <set name="script">Hochman runes</set>
+        </setters>
+    </element>
+</elements>
