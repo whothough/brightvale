@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<update version="0.0.7">
+			<file name="brightvale.index" url="https://github.com/whothough/brightvale/edit/master/brightvale.index" />
+		</update>
+	</info>
+	<files>
+		<file name="brightvale-races.index" url="https://github.com/whothough/brightvale/edit/master/" />
+		<file name="brightvale-backgrounds.index" url="https://github.com/whothough/brightvale/edit/master/" />		
+	</files>
+</index>
