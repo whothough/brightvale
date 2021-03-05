@@ -38,7 +38,7 @@
             <grant type="Size" id="ID_SIZE_MEDIUM" />
             <stat name="innate speed" value="30" bonus="base" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
-            <select type="Proficiency" name="Tool Proficiency (Human)" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_BREWERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS tools" />
+            <select type="Proficiency" name="Tool Proficiency (Human)" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_BREWERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS" />
             <select type="Proficiency" name="Expertise (Human)" level="1" number="2" supports="ID_INTERNAL_SUPPORT_EXPERTISE" />
             <select type="Spell" name="1st-level Spell (Education Ritual)" supports="Ritual,1,Artificer" number="2" />
             <grant type="Spell" id="ID_PHB_SPELL_GOODBERRY" />
