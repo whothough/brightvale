@@ -6,6 +6,10 @@
 		</update>
 	</info>
 	<files>
-		<file name="race-brightvale-human.xml" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale-races/race-brightvale-human.xml" />	
+		<file name="race-brightvale-human.xml" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale-races/race-brightvale-human.xml" />#
+		<file name="race-brightvale-wolderman.xml" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale-races/race-brightvale-wolderman.xml" />
+		<file name="race-brightvale-felman.xml" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale-races/race-brightvale-felman.xml" />
+		<file name="race-brightvale-hochman.xml" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale-races/race-brightvale-hochman.xml" />
+		<file name="race-brightvale-reman.xml" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale-races/race-brightvale-reman.xml" />
 	</files>
 </index>
