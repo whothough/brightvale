@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Brightvale Felman</name>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="race-brightvale-felman.xml" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale-races/race-brightvale-felman.xml" />
         </update>
     </info>
@@ -19,7 +19,7 @@
                 <span class="feature">Underground Living.</span> Can hold breath for up to half an hour; advantage on constitution saving throws.<br />
                 <span class="feature">Darkvision.</span> Darkvision.<br />
                 <span class="feature">Feldark Education.</span> You have the light, resistance and spare the dying cantrips.<br />
-                <span class="feature">Air Affinity.</span> Thaumaturgy cantrip & Thunderwave.<br />
+                <span class="feature">Air Affinity.</span> Thaumaturgy cantrip and Thunderwave.<br />
             </p>
         </description>
         <setters>
