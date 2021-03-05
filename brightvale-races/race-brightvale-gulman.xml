@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Brightvale Gulman</name>
+        <update version="0.0.1">
+            <file name="race-brightvale-gulman.xml" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale-races/race-brightvale-gulman.xml" />
+        </update>
+    </info>
+    
+    <element name="Brightvale Gulman" type="Race" source="Brightvale" id="ID_BRV_RACE_GULMAN">
+        <description>
+            <h4>Men of the Tides.</h4>
+            <p>Physical: Pale skin, black hair, strong build, distinctive complexions with dark shadows around the eyes and under the cheekbones.</p>
+            <p>Culture: Merchant sailors and fishermen of the far West. They come from distant and remote island communities, but are commonly seen in the seaside towns West of Brightvale. They wear simple, patterned clothes, with traditional feather earrings and plaited or ponytailed long hair.</p>
+            <h4>Gulman Traits</h4>
+            <p>
+                <span class="feature">Ability Score Increase.</span> Your Constitution score increases by 2, and your Dexterity score increases by 1.<br />
+                <span class="feature">Merchant Community.</span> Proficiency with the Persuasion skill.<br />
+                <span class="feature">Hardy Folk.</span> If reduced to 0 hit points, or otherwise immobilised for a turn or more by some other condition, a Gulman may perform one action as a reaction before the effect takes hold.<br />
+                <span class="feature">Mercantile Education.</span> May choose two Bard cantrips.<br />
+                <span class="feature">Water Affinity.</span> Shape Water cantrip & Create or Destroy Water spell.<br />
+            </p>
+        </description>
+        <setters>
+            <set name="names" type="male">Alla, Athuin, Billan, Cuthuin, Elass, Elissar, Faethuin, Gilessar, Halwin, ...</set>
+            <set name="names" type="female">Aewin, Alia, Bessan, Cathail, Ethuil, Esafilla, Fessil, Galia, ...</set>
+            <set name="names" type="clan"></set>
+            <set name="names-format">{{name}}</set>
+            <set name="height" modifier="2d10">5'</set>
+            <set name="weight" modifier="2d4">110 lb.</set>
+        </setters>
+        <sheet display="false">
+            <description>description</description>
+        </sheet>
+        <rules>
+            <stat name="charisma" value="2" />
+            <stat name="wisdom" value="1" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <stat name="innate speed" value="30" bonus="base" />
+          <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+            <grant type="Racial Trait" id="ID_BRV_GULMAN_HF" />
+            <select type="Spell" name="Cantrip (Education)" supports="0,Bard" number="2" />
+            <grant type="Spell" id="ID_XGTE_SPELL_SHAPE_WATER" />
+            <grant type="Spell" id="ID_PHB_SPELL_CREATE_OR_DESTROY_WATER" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_BRV_LANGUAGE_GULMAN" />
+        </rules>
+    </element>
+    <element name="Hardy Folk" type="Racial Trait" source="Brightvale" id="ID_BRV_GULMAN_HF">
+        <description>
+            <p>If reduced to 0 hit points, or otherwise immobilised for a turn or more by some other condition, a Gulman may perform one action as a reaction before the effect takes hold.</p>
+        </description>
+        <sheet display="true">
+            <description>If reduced to 0 hit points, or otherwise immobilised for a turn or more by some other condition, a Gulman may perform one action as a reaction before the effect takes hold.</description>
+        </sheet>
+    </element>
+    <element name="West Speak" type="Language" source="Brightvale" id="ID_BRV_LANGUAGE_GULMAN">
+        <description>
+            <p>Typically spoken by hochmans.</p>
+        </description>
+        <setters>
+            <set name="exotic">true</set>
+            <set name="speakers">Gulman, Human</set>
+            <set name="script">Western Alphabet</set>
+        </setters>
+    </element>
+</elements>
