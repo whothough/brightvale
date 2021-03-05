@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<update version="0.1.0">
+		<update version="0.1.1">
 			<file name="brightvale.index" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale.index" />
 		</update>
 	</info>
