@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="brightvale.index" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale.index" />
 		</update>
 	</info>
 	<files>
-		<file name="race-brightvale-human.xml" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale-races/race-brightvale-human.xml" />#
+		<file name="race-brightvale-human.xml" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale-races/race-brightvale-human.xml" />
 		<file name="race-brightvale-wolderman.xml" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale-races/race-brightvale-wolderman.xml" />
 		<file name="race-brightvale-felman.xml" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale-races/race-brightvale-felman.xml" />
 		<file name="race-brightvale-hochman.xml" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale-races/race-brightvale-hochman.xml" />
