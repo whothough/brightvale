@@ -2,10 +2,10 @@
 <index>
 	<info>
 		<update version="0.0.1">
-			<file name="brightvale.index" url="https://github.com/whothough/brightvale/blob/master/brightvale.index" />
+			<file name="brightvale.index" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale.index" />
 		</update>
 	</info>
 	<files>
-		<file name="race-brightvale-human.xml" url="https://github.com/whothough/brightvale/blob/master/brightvale-races/race-brightvale-human.xml" />	
+		<file name="race-brightvale-human.xml" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale-races/race-brightvale-human.xml" />	
 	</files>
 </index>
