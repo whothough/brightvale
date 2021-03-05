@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Brightvale Gulman</name>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="race-brightvale-gulman.xml" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale-races/race-brightvale-gulman.xml" />
         </update>
     </info>
@@ -18,7 +18,7 @@
                 <span class="feature">Merchant Community.</span> Proficiency with the Persuasion skill.<br />
                 <span class="feature">Hardy Folk.</span> If reduced to 0 hit points, or otherwise immobilised for a turn or more by some other condition, a Gulman may perform one action as a reaction before the effect takes hold.<br />
                 <span class="feature">Mercantile Education.</span> May choose two Bard cantrips.<br />
-                <span class="feature">Water Affinity.</span> Shape Water cantrip & Create or Destroy Water spell.<br />
+                <span class="feature">Water Affinity.</span> Shape Water cantrip and Create or Destroy Water spell.<br />
             </p>
         </description>
         <setters>
