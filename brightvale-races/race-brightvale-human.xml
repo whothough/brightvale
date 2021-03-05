@@ -3,7 +3,7 @@
     <info>
         <name>Brightvale Human</name>
         <update version="0.0.1">
-            <file name="race-brightvale-human.xml" url="https://github.com/whothough/brightvale/edit/master/brightvale-races/race-brightvale-human.xml" />
+            <file name="race-brightvale-human.xml" url="https://github.com/whothough/brightvale/blob/master/brightvale-races/race-brightvale-human.xml" />
         </update>
     </info>
     
