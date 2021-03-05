@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Brightvale Human</name>
-        <update version="0.0.7">
+        <update version="0.1.0">
             <file name="race-brightvale-human.xml" url="https://raw.githubusercontent.com/whothough/brightvale/master/brightvale-races/race-brightvale-human.xml" />
         </update>
     </info>
@@ -10,8 +10,8 @@
     <element name="Brightvale Human" type="Race" source="Brightvale" id="ID_BRV_RACE_HUMAN">
         <description>
             <h4>Men of the Fields.</h4>
-            <p>Physical: </p>
-            <p>Culture: </p>
+            <p>Physical: Tanned skin, dark hair, strong build, distinctive for the facial hair that grows on men, a feature otherwise shown only by hochmans.</p>
+            <p>Culture: Living in communal townships, humans are a social people with a long tradition of local politics and organisation. They are largely agrarian, but aspire towards more complicated and personal crafts, an aspiration which drives their long-standing tradition of guilds. Humans wear short, practical hairstyles, and usually simple clothing relative to their own status.</p>
             <h4>Human Traits</h4>
             <p>
                 <span class="feature">Ability Score Increase.</span> Your Strength score increases by 2, and your Charisma score increases by 1.<br />
